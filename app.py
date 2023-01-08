@@ -59,7 +59,7 @@ def main():
             if user_ans == answers[index]:
                 count += 1
                 if count != total_questions:
-                    print(f"You won! Rs {amount[count]}")
+                    print(f"Correct answer... You won Rs {amount[count]}")
                     clear(2)
                 else:
                     print(
